@@ -4,8 +4,10 @@ Este sitio web esta compuesto para la solución que brinda una plataforma de ven
 -Controles de cada consola
 Nuestra audiencia esta enfocada para todo tipo de persona que quiera adquirir una consola nueva.
 
-https://colombiagamer.com.co/productos
-https://clinicadelplay.com/
-https://www.mercadolibre.com.co/
-https://www.linio.com.co/c/consolas-y-videojuegos
-https://www.amd.com/es
+<ol> 
+        <li>https://colombiagamer.com.co/productos</li>
+        <li>https://clinicadelplay.com/</li>
+        <li>https://www.mercadolibre.com.co/</li>
+        <li>https://www.linio.com.co/c/consolas-y-videojuegos</li>
+        <li>https://www.amd.com/es</li>
+</ol>
