@@ -6,7 +6,7 @@ Kevin Bermudez, Michelle Giraud, David Nope, Miguel Velasco.
 
 **2. Temática del sitio:**
 
-Consolas de Videojuegos de nueva generación (Nintendo, PlayStation y Xbox) y accesorios.
+Consolas de Videojuegos de nueva generación (Nintendo, PlayStation, Xbox) y accesorios.
 
 **3. Público:**
 
