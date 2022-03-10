@@ -11,3 +11,7 @@ app.listen(puerto, ()=>{
 app.get('/', (req,res)=>{
     res.sendFile(path.join(__dirname,'views/home.html'))
 })
+app.post('/', (req,res)=>{
+   /*  console.log(req._read()) */
+    res.sendFile(path.join(__dirname,'views/home.html'))
+})
