@@ -41,7 +41,7 @@ footer{
 
 }
 footer section{
-    width: 70%;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -57,6 +57,8 @@ footer ul{
 
 
 footer a{
+    width: 200px;
+    height: 40px;
     text-decoration: none;
     color:white;
     align-self: center;
