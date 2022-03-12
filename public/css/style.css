@@ -1,3 +1,4 @@
+
 :root{
    --na1: #FF6D00;
    --na2: #FF7900;
@@ -31,6 +32,9 @@ header nav div{
     position: relative;
 
 }
+
+
+
 footer{
     background-color: grey;
     width: 100%;
@@ -158,6 +162,5 @@ header a{
     width: 30px;
     height: 30px;
     background-color: #5A189A;
-    
-    
+
 }

@@ -1,0 +1,182 @@
+body{
+    background: url(/img/Fondo.jpg);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* ImgPrincipal */
+
+#imgPrincipal{
+    height: 335px;
+    width: 100%;
+    margin-bottom: 72px;
+}
+
+#imgPrincipal img{
+    height: 100%;
+    width: 100%;
+}
+
+/* seccion logos de marca */
+#seccionLogosMarca{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    width: 80%;
+    justify-content: center;
+}
+
+.porLogo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(200, 200, 200, 0.5);
+    margin: 12px 0px; 
+    padding: 25px 10px;
+}
+
+.iconMarca{
+    width: 100%;
+    font-size: 75px;
+}
+/* Nuestros productos */
+
+#pruductosLinea{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+    margin-top: 72px;
+    margin-bottom: 100px;
+    padding: 65px 0px;
+}
+
+#pruductosLinea h2{
+
+    width: 100%;
+    text-align: center;
+}
+#pruductosLinea img{
+    width: 100%;
+}
+
+.productoDesc{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70%;
+}
+
+/* Descripcion -texto */
+
+.descripcion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(200, 200, 200);   
+}
+.estrellas{
+    font-size: 12px;
+    width: 100%;
+}
+.descripcion h4{
+    margin: 5px 0px;
+    width: 100%;
+}
+.descripcion p{
+    width: 100%;
+    margin: 0px;
+}
+.iconosAbajo{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.iconosAbajo i{
+    padding-left: 5px;
+}
+/* consolaPorSeccion */
+
+#consolaPorSeccion {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    padding-top: 200px;
+}
+
+/* img consolaPorSeccion*/
+.imgConsolaPorSeccion{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    top: 0px;
+}
+
+.tamañoImg{
+    height: 312px;
+}
+#consolaPorSeccion img{
+    width: 200px;
+    height: 100%;
+}
+
+/* Texto consolaPorSeccion */
+
+.textoPorSeccion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(200, 200, 200); ;
+    padding-top: 115px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.textoPorSeccion p{
+    margin: 0px;
+    width: 98%;
+}
+
+.botonVermas{
+    width: 100%;
+}
+.botonVermas button{
+    font-size: 25px;
+    font-weight: lighter;
+    height: 60px;
+    width: 255px;
+    margin: 30px 0;
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Img-final */
+
+#imgFinal{
+    width: 100%;
+    height: 340px;
+    margin-top: 25px;
+    margin-bottom: 125px 
+}
+
+#imgFinal img{
+    width: 100%;
+    height: 100%;
+}
