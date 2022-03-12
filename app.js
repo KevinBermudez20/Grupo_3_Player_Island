@@ -15,3 +15,7 @@ app.post('/', (req,res)=>{
    /*  console.log(req._read()) */
     res.sendFile(path.join(__dirname,'views/home.html'))
 })
+app.get('/detalle-producto', (req,res)=>{
+    res.sendFile(path.join(__dirname,'views/detalle-producto.html'))
+})
+
