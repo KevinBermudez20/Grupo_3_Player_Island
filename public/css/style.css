@@ -17,7 +17,7 @@ body{
 }
 header{
       width: 100%;
-      background-color: var(--mo1);
+      background-color: rgb(20, 33, 61);
       height: 48px;
       display: flex;
 
