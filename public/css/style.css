@@ -30,7 +30,6 @@ header nav{
 header nav div{
     display: flex;
     position: relative;
-
 }
 
 
@@ -61,6 +60,8 @@ footer ul{
 
 
 footer a{
+    width: 200px;
+    height: 40px;
     text-decoration: none;
     color:white;
     align-self: center;

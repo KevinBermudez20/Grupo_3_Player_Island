@@ -11,14 +11,13 @@ main{
 /* ImgPrincipal */
 
 #imgPrincipal{
-    height: 335px;
     width: 100%;
     margin-bottom: 72px;
 }
 
 #imgPrincipal img{
-    height: 100%;
     width: 100%;
+    display: block;
 }
 
 /* seccion logos de marca */
@@ -41,6 +40,8 @@ main{
     background-color: rgba(200, 200, 200, 0.5);
     margin: 12px 0px; 
     padding: 25px 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .iconMarca{
@@ -64,16 +65,24 @@ main{
     width: 100%;
     text-align: center;
 }
-#pruductosLinea img{
-    width: 100%;
-}
 
 .productoDesc{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    width: 70%;
+    width: 60%;
+    text-decoration: none;
+    color: black;
 }
+/* imgNuProductos - Img */
+.imgNuProductos{
+    width: 100%;
+}
+#pruductosLinea img{
+    width: 100%;
+    display: block;
+}
+
 
 /* Descripcion -texto */
 
@@ -83,12 +92,13 @@ main{
     flex-direction: column;
     padding: 10px;
     width: 100%;
-    background-color: rgb(200, 200, 200);   
+    background-color: rgb(200, 200, 200);
 }
 .estrellas{
     font-size: 12px;
     width: 100%;
 }
+
 .descripcion h4{
     margin: 5px 0px;
     width: 100%;
@@ -99,13 +109,15 @@ main{
 }
 .iconosAbajo{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: end;
 }
 
 .iconosAbajo i{
-    padding-left: 5px;
+    padding-left: 10px;
 }
+
 /* consolaPorSeccion */
 
 #consolaPorSeccion {
@@ -127,12 +139,9 @@ main{
     top: 0px;
 }
 
-.tamañoImg{
-    height: 312px;
-}
 #consolaPorSeccion img{
-    width: 200px;
-    height: 100%;
+    width: 100%;
+    display: block;
 }
 
 /* Texto consolaPorSeccion */
@@ -156,6 +165,7 @@ main{
 .botonVermas{
     width: 100%;
 }
+
 .botonVermas button{
     font-size: 25px;
     font-weight: lighter;
@@ -171,12 +181,27 @@ main{
 
 #imgFinal{
     width: 100%;
-    height: 340px;
     margin-top: 25px;
-    margin-bottom: 125px 
+    margin-bottom: 125px;
+    position: relative;
 }
 
 #imgFinal img{
+    cursor:pointer;
     width: 100%;
-    height: 100%;
+    display: block;
+}
+
+#imgFinal div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+}
+
+#imgFinal div p{
+    width: 90%;
 }
