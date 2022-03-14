@@ -69,9 +69,7 @@ footer a{
 }
 footer form{
     display: flex;
-    flex-direction: column;
-    
-    
+    flex-direction: column;   
 }
 footer form input{
     align-items: center;

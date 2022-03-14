@@ -19,3 +19,6 @@ app.get('/detalle-producto', (req,res)=>{
     res.sendFile(path.join(__dirname,'views/detalle-producto.html'))
 })
 
+app.get('/ListaProductos', (req,res)=>{
+    res.sendFile(path.join(__dirname,'views/listaProductos.html'))
+})
