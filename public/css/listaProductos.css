@@ -12,21 +12,14 @@
     --mo5: #9D4EDD;
  }
  body{
-    font-family: 'Titillium Web', sans-serif;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: lightgrey;
-    box-sizing: border-box;
+    background-color: #240046;
  }
  header{
        width: 100%;
        background-color: var(--mo1);
        height: 48px;
        display: flex;
+ 
  }
  header nav{
      display: flex;
@@ -37,19 +30,22 @@
      display: flex;
      position: relative;
  }
+
  footer{
      background-color: grey;
      width: 100%;
-     height: 100%;
      padding: 20px 0px;
      display: flex;
      flex-direction: column;
+     
+ 
  }
  footer section{
      width: 80%;
      margin: auto;
      display: flex;
      flex-direction: column;
+     
  }
  footer p{
      margin-top: 0;
@@ -58,6 +54,7 @@
      list-style: none;
      margin-top: 5px;
  }
+ 
  
  footer a{
      width: 200px;
@@ -69,9 +66,7 @@
  }
  footer form{
      display: flex;
-     flex-direction: column;
-     
-     
+     flex-direction: column;   
  }
  footer form input{
      align-items: center;
@@ -83,7 +78,6 @@
      padding: 8px;
      resize: none;
  }
- 
  #logo{
      width: 48px;
      height: 48px;
@@ -139,7 +133,9 @@
      text-align: center;
      padding: 0px 10px;
      align-items: center;
-     align-self: center; 
+     align-self: center;
+     
+     
  }
  header a{
      text-decoration:none;
@@ -160,63 +156,41 @@
      height: 30px;
      background-color: #5A189A;
  
-}
-.producto{
-    height: 100%;
-    width: 100%;
-    margin: 50px 20px auto auto;
-    justify-content: space-around;
-    display: flex;
-}
-.producto h3{
-    font-size: 1.7em;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.card{
-    position: relative;
-    border-radius: 4px;
-    background-color: white;
-    width: 300px;
-    height: 300px;
-    margin-bottom: 70px;
-    text-align: left;
-    margin-left: 10px;
-    overflow: hidden;
-}
-.card img{
-    display: block;
-    width: 100%;
-    height: 200px; 
-} 
-.cardSideBar{
-    display: block;
-    background-color: #5A189A;
-    width: 300px;
-    height: 1200px;
+ }
+
+
+body,
+html{
+	width: 100%;
+	height: 100%;
 }
 
-.informacion{
-    height: 10px;
-    width: 100%;
-    font-size: small;
+.page-section{
+	padding: 8rem 0;
+}
+
+
+.blog-form{
+	background-color: #240046; 
+	padding: 10px;
+	height: 1200px;
+}
+
+.price-tag{
+	text-align: left;
+}
+
+.product-image{
+	width: 200px;
+	height: 200px;
 }
 .clasificacion {
     direction: rtl;
     unicode-bidi: bidi-override;
     height: 2px;
-    width: 100%;
+    width: 100%; 
 }
-.precio{
-    height: 5px;
-}
-.logos{
-    text-align: right;
-    margin-right: 10px;
-}
-.row{
-    height: 280px;
-}
+
 #form {
     width: 250px;
     margin: 0 auto;
@@ -228,17 +202,73 @@
 #form label {
     font-size: 20px;
 }  
-input[type="radio"] {
+input[type="radios"] {
     display: none;
-} 
-label {
-    color: grey;
 } 
 label:hover,
 label:hover ~ label {
-    color: orange;
+    color: #240046;
 }
-  
-input[type="radio"]:checked ~ label {
-    color: orange;
+input[type="radios"]:checked ~ label {
+    color: #240046;
+}
+.logos{
+    text-align: right;
+    margin-right: 10px;
+}
+.card{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 10px;
+    overflow: hidden;
+}
+input {
+    margin: .4rem;
+}
+.butt {
+    background-color: lightgray;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+ }
+ .buttonsPages{
+     margin-top: 20px;
+     align-items: center;
+ }
+ .estrellas{
+     width: 100%;
+     text-align: left;
+     padding-top: 10px;
+ }
+ .filtrado{
+     background-color: white;
+ }
+ .porLogo{
+    background-color: rgba(200, 200, 200, 0.5);
+    border: none;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.column {
+    float: left;
+    padding-bottom: 0px;
+}
+
+#seccionLogosMarca{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    width: 80%;
+    justify-content: center;
 }
