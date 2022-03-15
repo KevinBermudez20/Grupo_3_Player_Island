@@ -17,10 +17,15 @@ body{
 }
 header{
       width: 100%;
-      background-color: rgb(20, 33, 61);
+      background-color: var(--mo1);
       height: 48px;
       display: flex;
 
+}
+#header{
+    display: flex;
+    width: 100%;
+    position: relative;
 }
 header nav{
     display: flex;
@@ -29,7 +34,7 @@ header nav{
 }
 header nav div{
     display: flex;
-    position: relative;
+   /*  position: relative; */
 }
 
 
@@ -41,6 +46,11 @@ footer{
     display: flex;
     flex-direction: column;
     
+
+}
+#footer{
+    display: flex;
+    flex-direction: column;
 
 }
 footer section{
@@ -69,9 +79,7 @@ footer a{
 }
 footer form{
     display: flex;
-    flex-direction: column;
-    
-    
+    flex-direction: column;   
 }
 footer form input{
     align-items: center;
@@ -134,6 +142,10 @@ footer form textarea{
     margin-top: 0.8rem;
     display: flex;
 }
+#divFooter{
+    display: flex;
+    flex-direction: column;
+}
 
 .navButton{
     text-align: center;
@@ -162,4 +174,44 @@ header a{
     height: 30px;
     background-color: #5A189A;
 
+}
+
+@media (min-width: 430px) {
+    #header{
+        width: 80%;
+        margin: auto;
+    }
+    #barraBusqueda{
+        left: 20%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    #footer{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    }
+    
+    #divFooter{
+        width: 30%;
+    }
+    .divFooter{
+        width: 30%;
+    }
+    .divFooter h3{
+        text-align: center;
+
+    }
+    .divFooter ul{
+        padding: 20px;
+        border-top: solid 1px black ;
+    }
+    
 }

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Titillium+Web:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/listaProductos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Productos</title>
+    <!-- Site Icon -->
+    <link rel="shortcut Icon" type="image/png" href="img/favicon.png">
+    <!-- Icono -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="css/listaProductos.css" rel="stylesheet">
+</head>
+<header>
+    <nav>
+        <div id="logo">
+            <img src="/img/logoProvisional.png" alt="">
+        </div>
+        <div id="barraBusqueda">
+            <i class="fa-solid fa-magnifying-glass navButton"></i>
+            <input type="search" placeholder="Busca aquí...">
+        </div>
+        <div class="navButton barras">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <div class="navButton carrito">
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </nav>
+</header>
+<body>
+    <section class="page-section">
+        <div class="container">
+            <div class="row">
+                    <div class="col-sm-3 col-md-6 col-lg-4">
+                        <div class="column">
+                            <a class="porLogo">
+                                <div class="iconMarca">
+                                    <i class="fa-brands fa-playstation"></i>
+                                </div>
+                                <h3>Lorem Ipsum</h3>
+                                <p style="margin-top: 0;">Es simplemente un texto ficticio de la industria de la
+                                    impresión y la composición tipográfica.</p>
+                            </a>
+                        </div>
+                </div>
+                <div class="col-sm-3 col-md-6 col-lg-4">
+                    <div class="column">
+                        <a class="porLogo">
+                            <div class="iconMarca">
+                                <i class="fa-brands fa-xbox"></i>
+                            </div>
+                            <h3>Lorem Ipsum</h3>
+                            <p style="margin-top: 0;">Es simplemente un texto ficticio de la industria de la impresión y
+                                la composición tipográfica.</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-6 col-lg-4">
+                    <div class="column">
+                        <a class="porLogo">
+                            <div class="iconMarca">
+                                <i class="fa-solid fa-gamepad"></i>
+                            </div>
+                            <h3>Lorem Ipsum</h3>
+                            <p style="margin-top: 0;">Es simplemente un texto ficticio de la industria de la impresión y la
+                                composición tipográfica.</p>
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="page-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 blog-form">
+                    <h4 class="title font-weight-bold small" style="color: white;">Productos > Play Station</h4>
+                    <hr />
+                    <h2 style="color: white;"><b>Filtrado por</b></h2>
+                    <hr />
+                    <div class="filtrado">
+                        <h4 style="color: black;"><b>Modelo</b></h4>
+                        <p>Ediciones especiales</p>
+                        <p>Consolas Nuevas</p>
+                        <p>Controles</p>
+                    </div>
+                    <hr />
+                    <div class="filtrado">
+                        <h4 style="color: black;"><b>Color</b></h4>
+                        <input type="radio" id="color1" name="color" value="color1">
+                        <label for="color1">Color1</label><br>
+                        <input type="radio" id="color2" name="color" value="color2">
+                        <label for="color2">Color2</label><br>
+                        <input type="radio" id="color3" name="color" value="color3">
+                        <label for="color3">Color3</label><br>
+                        <input type="radio" id="age1" name="color" value="color4">
+                        <label for="color1">Color4</label><br>
+                        <input type="radio" id="color2" name="color" value="color5">
+                        <label for="color2">Color5</label><br>
+                    </div>
+                    <hr />
+                    <div class="filtrado">
+                        <h4 style="color: black;"><b>Precio</b></h4>
+                        <input type="radio" id="color1" name="color" value="30">
+                        <label for="color1">Hasta $1,000,000</label><br>
+                        <input type="radio" id="color2" name="color" value="60">
+                        <label for="color2">$1,000,000-1,500,000</label><br>
+                        <input type="radio" id="color3" name="color" value="100">
+                        <label for="color3">menos de $1,000,000</label><br>
+                    </div>
+                </div>
+                <div class="col-lg-9" style="padding-left: 30px;">
+                    <div class="row">
+                        <div class="col">
+                            <select class="form-control">
+                                <option value="">Default Sorting</option>
+                                <option value="popularity">Sorting by popularity</option>
+                                <option value="average">Sorting by average</option>
+                                <option value="latest">Sorting by latest</option>
+                                <option value="low">Sorting by low</option>
+                                <option value="high">Sorting by high</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/img/tamaños img del home/img principal.png" class="product-image">
+                                    <div class="estrellas">
+
+                                        <!--<form> 
+                                        <p class="clasificacion">
+                                            <input id="radio1" type="radios" name="estrellas" value="5">
+                                            <label for="radio1">☆</label>
+                                            <input id="radio2" type="radios" name="estrellas" value="4">
+                                            <label for="radio2">☆</label>
+                                            <input id="radio3" type="radios" name="estrellas" value="3">
+                                            <label for="radio3">☆</label>
+                                            <input id="radio4" type="radios" name="estrellas" value="2">
+                                            <label for="radio4">☆</label>
+                                            <input id="radio5" type="radios" name="estrellas" value="1">
+                                            <label for="radio5">☆</label>
+                                        </p> 
+                                        </div>-->
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                    </div>
+                                    <h5 class="informacion text-left"><b>Producto</b></h5>
+                                    <p class="price-tag">$50,0000</p>
+                                    <div class="logos">
+                                        <span class="heart"><i class="fas fa-heart"></i></span>
+                                        <span class="network"><i class="fa-solid fa-diagram-project"></i></i></span>
+                                        <span class="shopping"><i class="fas fa-cart-shopping"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/img/tamaños img del home/img principal.png" class="product-image">
+                                    <div class="estrellas">
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                    </div>
+                                    <h5 class="informacion text-left"><b>Producto</b></h5>
+                                    <p class="price-tag">$50,0000</p>
+                                    <div class="logos">
+                                        <span class="heart"><i class="fas fa-heart"></i></span>
+                                        <span class="network"><i class="fa-solid fa-diagram-project"></i></i></span>
+                                        <span class="shopping"><i class="fas fa-cart-shopping"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/img/tamaños img del home/img principal.png" class="product-image">
+                                    <div class="estrellas">
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                    </div>
+                                    <h5 class="informacion text-left"><b>Producto</b></h5>
+                                    <p class="price-tag">$50,0000</p>
+                                    <div class="logos">
+                                        <span class="heart"><i class="fas fa-heart"></i></span>
+                                        <span class="network"><i class="fa-solid fa-diagram-project"></i></i></span>
+                                        <span class="shopping"><i class="fas fa-cart-shopping"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/img/tamaños img del home/img principal.png" class="product-image">
+                                    <div class="estrellas">
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                    </div>
+                                    <h5 class="informacion text-left"><b>Producto</b></h5>
+                                    <p class="price-tag">$50,0000</p>
+                                    <div class="logos">
+                                        <span class="heart"><i class="fas fa-heart"></i></span>
+                                        <span class="network"><i class="fa-solid fa-diagram-project"></i></i></span>
+                                        <span class="shopping"><i class="fas fa-cart-shopping"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/img/tamaños img del home/img principal.png" class="product-image">
+                                    <div class="estrellas">
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                    </div>
+                                    <h5 class="informacion text-left"><b>Producto</b></h5>
+                                    <p class="price-tag">$50,0000</p>
+                                    <div class="logos">
+                                        <span class="heart"><i class="fas fa-heart"></i></span>
+                                        <span class="network"><i class="fa-solid fa-diagram-project"></i></i></span>
+                                        <span class="shopping"><i class="fas fa-cart-shopping"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/img/tamaños img del home/img principal.png" class="product-image">
+                                    <div class="estrellas">
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                    </div>
+                                    <h5 class="informacion text-left"><b>Producto</b></h5>
+                                    <p class="price-tag">$50,0000</p>
+                                    <div class="logos">
+                                        <span class="heart"><i class="fas fa-heart"></i></span>
+                                        <span class="network"><i class="fa-solid fa-diagram-project"></i></i></span>
+                                        <span class="shopping"><i class="fas fa-cart-shopping"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3 col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/img/tamaños img del home/img principal.png" class="product-image">
+                                    <div class="estrellas">
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                    </div>
+                                    <h5 class="informacion text-left"><b>Producto</b></h5>
+                                    <p class="price-tag">$50,0000</p>
+                                    <div class="logos">
+                                        <span class="heart"><i class="fas fa-heart"></i></span>
+                                        <span class="network"><i class="fa-solid fa-diagram-project"></i></i></span>
+                                        <span class="shopping"><i class="fas fa-cart-shopping"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/img/tamaños img del home/img principal.png" class="product-image">
+                                    <div class="estrellas">
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                    </div>
+                                    <h5 class="informacion text-left"><b>Producto</b></h5>
+                                    <p class="price-tag">$50,0000</p>
+                                    <div class="logos">
+                                        <span class="heart"><i class="fas fa-heart"></i></span>
+                                        <span class="network"><i class="fa-solid fa-diagram-project"></i></i></span>
+                                        <span class="shopping"><i class="fas fa-cart-shopping"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-6 col-lg-4">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <img src="/img/tamaños img del home/img principal.png" class="product-image">
+                                    <div class="estrellas">
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                        <span><i class="fa-regular fa-star"></i></span>
+                                    </div>
+                                    <h5 class="informacion text-left"><b>Producto</b></h5>
+                                    <p class="price-tag">$50,0000</p>
+                                    <div class="logos">
+                                        <span class="heart"><i class="fas fa-heart"></i></span>
+                                        <span class="network"><i class="fa-solid fa-diagram-project"></i></i></span>
+                                        <span class="shopping"><i class="fas fa-cart-shopping"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttonsPages">
+                            <input class="butt" type="button" value="1" />
+                            <input class="butt" type="button" value="2" />
+                            <input class="butt" type="button" value="3" />
+                            <input class="butt" type="button" value="4" />
+                            <input class="butt" type="button" value="5" />
+                            <input class="butt" type="button" value="6" />
+                            <input class="butt" type="button" value="7" />
+                            <input class="butt" type="button" value="8" />
+                            <input class="butt" type="button" value="9" />
+                            <label>...</label>
+                            <input class="butt" type="button" value="12" />
+                            <label style="color: white;">Siguiente > </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <section>
+            <h2>Contactenos</h2>
+            <p><i class="fa-solid fa-envelope"></i> playerisland@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 000-000-0000</p>
+        </section>
+        <section>
+            <div> <button class="red"><a href="https://www.instagram.com "><i
+                            class="fa-brands fa-instagram "></i></a></button>
+                <button class="red"><a href="https://www.facebook.com"><i
+                            class="fa-brands fa-facebook-f"></i></a></button>
+                <button class="red"><a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a></button>
+                <button class="red"><a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a></button>
+            </div>
+        </section>
+        <section>
+            <h3 style="margin-bottom: 0px">Productos</h3>
+            <ul>
+                <li><a> lorem ipsum</a></li>
+                <li><a> lorem ipsum</a></li>
+                <li><a> lorem ipsum</a></li>
+                <li><a> lorem ipsum</a></li>
+            </ul>
+        </section>
+        <section>
+            <form action="/" method="post">
+                <h3>Escribenos</h3>
+                <input id="formEmail" type="email" name="email" placeholder="ejemplo@correo.com">
+                <textarea name="comentarios" rows="10" cols="40" placeholder="Escribe aquí tus comentarios"></textarea>
+                <div id="botones">
+                    <button id="enviarForm" type="submit" value="ENVIAR">ENVIAR</button>
+                    <button id="resetForm" type="reset">BORRAR</button>
+                </div>
+            </form>
+        </section>
+    </footer>
+</body>
+
+</html>
