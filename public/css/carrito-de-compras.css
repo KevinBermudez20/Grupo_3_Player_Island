@@ -22,19 +22,17 @@ main{
     width: 750px;
     height: 600px;
     margin: 80px auto;
-    background: #FFFFFF;
-    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    background: gray;
     border-radius: 6px;
-   
     display: flex;
     flex-direction: column;
   }
   .title {
-    height: 60px;
-    border-bottom: 1px solid #E1E8EE;
+    height: 6px;
+    border-bottom: 1px solid #240046;
     padding: 20px 30px;
-    color: #5E6977;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 20px;
     font-weight: 400;
   }
    
@@ -45,8 +43,8 @@ main{
   }
    
   .item:nth-child(3) {
-    border-top:  1px solid #E1E8EE;
-    border-bottom:  1px solid #E1E8EE;
+    border-top:  1px solid #240046;
+    border-bottom:  1px solid #240046;
   }
   .buttons {
     position: relative;
@@ -100,18 +98,15 @@ main{
    
   .description span {
     display: block;
-    font-size: 14px;
-    color: #43484D;
+    font-size: 15px;
+    color: #ffffff;
     font-weight: 400;
-  }
-   
-  .description span:first-child {
-    margin-bottom: 5px;
   }
   .description span:last-child {
     font-weight: 300;
     margin-top: 8px;
-    color: #86939E;
+    font-size: 12px;
+    color: #ffffff;
   }
   .quantity {
     padding-top: 20px;
@@ -178,6 +173,13 @@ main{
     .buttons {
       margin-right: 20px;
     }
+    input[type=number]::-webkit-inner-spin-button {
+        opacity: 1;
+      }
+      .row {
+        column-count: 3;
+        -moz-column-count: 3;;
+      }
   }
 
 
