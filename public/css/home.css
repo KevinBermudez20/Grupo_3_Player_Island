@@ -1,3 +1,13 @@
+:root{
+     --morado-oscuro: #150722;
+     --morado-intermedio: #230B39;
+     --morado-claro: #352347;
+     --naranja: #FCA311;
+     --gris: #D6D6D6;
+     --blanco: #FFFFFF;
+}
+
+
 body{
     background: url(/img/Fondo.jpg);
 }
@@ -37,10 +47,9 @@ main{
     align-items: center;
     width: 100%;
     padding: 12px;
-    background-color: rgba(200, 200, 200, 0.5);
     margin: 12px 0px;
     text-decoration: none;
-    color: black;
+    color: var(--blanco);
 }
 
 .iconMarca{
@@ -66,14 +75,15 @@ main{
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-    background-color: white;
+    background-color: var(--morado-oscuro);
     margin-top: 72px;
     margin-bottom: 100px;
     padding: 65px 0px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
 #pruductosLinea h2{
-
+    color: var(--blanco);
     width: 100%;
     text-align: center;
 }
@@ -141,18 +151,21 @@ main{
     flex-direction: column;
     padding: 10px;
     width: 100%;
-    background-color: rgb(200, 200, 200);
+    background-color: var(--morado-intermedio)
 }
 .estrellas{
+    color: var(--naranja);
     font-size: 12px;
     width: 100%;
 }
 
 .descripcion h4{
+    color: var(--blanco);
     margin: 5px 0px;
     width: 100%;
 }
 .descripcion p{
+    color: var(--blanco);
     width: 100%;
     margin: 0px;
 }
@@ -174,8 +187,8 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    background-color: rgb(200, 200, 200);
-    margin-top: 220px;
+    background-color: var(--morado-intermedio);
+    margin-top: 300px;
     margin-bottom: 120px;
     padding-top: 100px;
 }
@@ -186,6 +199,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
+
 }
 
 /* img consolaPorSeccion*/
@@ -193,7 +207,11 @@ main{
 .item-img-seccion{
     position: absolute;
     top: -300px;
+    height: 320px
+}
 
+.item-img-seccion div{
+    height: 100%;
 }
 
 .item-img-seccion img{
@@ -211,6 +229,12 @@ main{
     text-align: center;
 }
 
+.item-text-seccion h2{
+    color: var(--blanco);
+}
+.item-text-seccion p{
+    color: var(--gris)
+}
 
   /* caja reversa - consola por seccion */
 
@@ -226,45 +250,20 @@ main{
 .item-img-reverse{
     position: absolute;
     top: -300px;
+    height: 320px;
 }
+
+.item-img-reverse div{
+    height: 100%;
+ }
+
 
 .item-img-reverse img{
     display: block;
     height: 100%;
 }
 
-
-/* MARCOS */
-/* .consolaPorSeccion {
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  
-    padding-top: 200px;
-    justify-content: center;
-    position: relative;
-}
-
-.box-item {
-    width: 100%;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-
-}
-
-.item-img {
-   position: absolute;
-   top: 0;
-}
-
-.item-text {
-    width: 100%;
-    background-color: blue;
-} */
-
-
+/* boton vermas */
 
 .botonVermas button{
     font-size: 20px;
@@ -274,7 +273,10 @@ main{
     margin: 30px 0;
     border-radius: 12px;
     border: 0px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: var(--morado-claro);
+    font-weight: 600;
+    background-color: var(--gris);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 /* Img-final */
@@ -293,7 +295,10 @@ main{
 .item-img-final{
     width: 100%;
     display: block;
+    opacity: 50%;
 }
+
+
 
 .item-img-final img{
     width: 100%;
@@ -304,12 +309,12 @@ main{
     position: absolute;
     width: 80%;
     top: 30px;
-    
+    color: var(--blanco);
 }
 @media (min-width:768px){
     #imgPrincipal img{
         display: block;
-        max-height: 320px;
+        
     }
     /* seccion logos de marca */
 
@@ -348,7 +353,7 @@ main{
             top: 30px;
         }
         .item-img-final{
-            height: 400px;
+            max-height: 500px;
         }
 }
 
@@ -358,7 +363,6 @@ main{
 
     #imgPrincipal img{
         display: block;
-        max-height: 400px;
     }
 
     /* seccion logos de marca */
@@ -396,7 +400,7 @@ main{
     /* consolaPorSeccion */
     
     .consolaPorSeccion{
-        padding: 0;
+        padding: 30px 0;
     }
      
     .caja-items-seccion{
@@ -410,7 +414,7 @@ main{
         top: auto;
         bottom: 0px;
         left: 0px;
-        height: 450px;
+        height: 500px;
         width: 50%;
     }
 
@@ -419,6 +423,7 @@ main{
         right: 40px;
         height: 100%;
     }
+
     
     .item-img-seccion img{
         display: block;
@@ -444,7 +449,7 @@ main{
         top: auto;
         bottom: 0px;
         right: 0px;
-        height: 450px;
+        height: 500px;
         width: 50%;
     }
     
@@ -483,7 +488,16 @@ main{
         top: 30px;
     }
     .item-img-final{
-        height: 300px;
+        height: 100%;
     }
 }
 
+@media(min-width:1920px){
+
+    /* ImgPrincipal */
+
+    #imgPrincipal img{
+        display: block;
+        max-height: 600px;
+    }
+}
