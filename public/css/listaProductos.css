@@ -12,7 +12,8 @@
     --mo5: #9D4EDD;
  }
  body{
-    background-color: #240046;
+    background-image: url(/img/Fondo.jpg);
+
  }
  header{
        width: 100%;
@@ -171,7 +172,7 @@ html{
 
 
 .blog-form{
-	background-color: #240046; 
+	background-image: url(/img/Fondo.jpg);
 	padding: 10px;
 	height: 1200px;
 }
