@@ -32,23 +32,23 @@ main{
     height: 520px;
     width: 38.611%;
     background-color: #FFF;
-  }
-  .centrado {
-    position: absolute;
-    top: 30%;
-    width: 100%;
-    text-align: center;
-  }
-  .contraseña {
-    position: absolute;
-    top: 60%;
-    width: 100%;
-    text-align: center;
-  }
-  header{
-    position: absolute;
-    width: 100%;
-    display: flex;
+}
+.centrado {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+.contraseña {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+}
+header {
+  position: absolute;
+  width: 100%;
+  display: flex;
 }
 
 #logo{
