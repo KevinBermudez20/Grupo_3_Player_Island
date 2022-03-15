@@ -18,8 +18,10 @@ body{
 main{
     display: flex;
     flex-direction: column;
+    /* position: absolute; */
 
 }
+
 #imagenes-producto{
     display: flex;
     flex-direction: column;
@@ -310,7 +312,7 @@ display: none;
     #compra-producto{
         width: 40%;
         position: relative;
-        left: 23%;
+        left: 22%;
     }
     #pruductosLinea{
         width:100%;
@@ -345,10 +347,28 @@ display: none;
     .producto3{
         display: flex;
     }
-    /* #imagenscroll4{
-        display:flex;
-        } */
     
+    
+}
+@media (min-width: 770px) {
+    #compra-producto{
+        
+        bottom: 150px;
+    }
+    #imagenscroll4{
+        display: flex;
+        }
+}
+@media (min-width: 1030px) {
+    #compra-producto{
+        bottom: 280px;
+    }
+    #opciones-producto{
+        position: absolute;
+        top: 700px;
+        left: 9%;
+    }
+   
 }
 
 

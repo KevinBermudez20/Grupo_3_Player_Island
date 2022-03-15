@@ -17,20 +17,21 @@ body{
 }
 header{
       width: 100%;
-      background-color: var(--mo1);
       height: 48px;
       display: flex;
-
 }
 #header{
     display: flex;
     width: 100%;
     position: relative;
 }
+#navegacion{
+    display: none;
+}
 header nav{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 header nav div{
     display: flex;
@@ -163,6 +164,9 @@ header a{
     position: absolute;
     right: 45px;
 }
+.login{
+    display: none;
+}
 .carrito{
     position: absolute;
     right: 10px;
@@ -214,4 +218,74 @@ header a{
         border-top: solid 1px black ;
     }
     
+}
+@media (min-width: 1024px) {
+    header{
+        height: 70px;
+
+    }
+    #barraBusqueda{
+        display: none;
+    }
+    #navegacion{
+        display: flex;
+        justify-self: center;
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        right: 80px;
+
+    }
+    #barraBusqueda1{
+        background-color: white;
+        width: 50%;
+        height: 34px;
+        align-self: center;
+        border-radius: 20px;
+        position: absolute;
+        left: 0px;
+        top: 7px;
+        right: auto;
+    }
+    #barraBusqueda1 input{
+        display: flex;
+        height: 33px;
+        width: 75%;
+        border: 0px;
+        border-radius: 20px;
+        padding-left: 10px;
+        align-self: center;
+    }
+    .barras{
+        display: none;
+    }
+    .login{
+        display:block;
+        position: absolute;
+        right: 45px;
+    }
+    #listaNavegacion{
+        display: flex;
+        position: absolute;
+        right: 0px;
+        width: 300px;
+        justify-content: space-between;
+        
+    }
+    #listaNavegacion ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0;
+        width: 100%;
+
+        
+    }
+    #listaNavegacion ul li{
+        display: flex;
+        justify-self: normal;
+    }
+    
+
 }
