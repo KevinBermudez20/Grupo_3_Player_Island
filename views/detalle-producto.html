@@ -15,23 +15,26 @@
 </head>
 <body>
     <header>
-        <nav>
-          <a href="/"><div id="logo">
-              <img src="/img/logoProvisional.png" alt="">
-          </div></a>
-          <div id="barraBusqueda">
-              <i class="fa-solid fa-magnifying-glass navButton"></i>  
-              <input type="search" placeholder="Busca aquí...">
-            
-          </div>
-          <div class="navButton barras">
-              <a href="#"><i class="fa-solid fa-bars"></i></a>
-          </div>
-          <div class="navButton carrito">
-              <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-          </div>
-        </nav>  
+        <div id="header">
+            <nav>
+            <a href="/"><div id="logo">
+                <img src="/img/logoProvisional.png" alt="">
+            </div></a>
+            <div id="barraBusqueda">
+                <i class="fa-solid fa-magnifying-glass navButton"></i>  
+                <input type="search" placeholder="Busca aquí...">
+                
+            </div>
+            <div class="navButton barras">
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
+            <div class="navButton carrito">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            </nav> 
+        </div> 
       </header>
+    
       
       <main>
     <!-- detalle del producto -->
@@ -39,16 +42,16 @@
         <section id="imagenes-producto">
             <h4>Productos > Play Station > Producto x</h4>
             <div id="imagenPrincipal">
-                <img src="/img/tamaños img del home/img principal.png" alt="">
+                <img src="/img/control.png" alt="">
             </div>
             <div id="carrusel">
                 
                 <div class="divFlechas"><button class="flechas"><i class="fa-solid fa-caret-left"></i></button></div>
                 <div id="siguientes-imagenes">
-                <div id="imagenscroll1" class="imagenes-pequeñas"><img src="/img/tamaños img del home/img final.png" alt=""></div>
-                <div id="imagenscroll2" class="imagenes-pequeñas"> <img src="/img/tamaños img del home/img final.png" alt=""></div>
-                <div id="imagenscroll3" class="imagenes-pequeñas"> <img src="/img/tamaños img del home/img final.png" alt=""></div>
-                <div id="imagenscroll4" class="imagenes-pequeñas"> <img src="/img/tamaños img del home/img final.png" alt=""></div>
+                <div id="imagenscroll1" class="imagenes-pequeñas"><img src="/img/control.png" alt=""></div>
+                <div id="imagenscroll2" class="imagenes-pequeñas"> <img src="/img/control.png" alt=""></div>
+                <div id="imagenscroll3" class="imagenes-pequeñas"> <img src="/img/control.png" alt=""></div>
+                <div id="imagenscroll4" class="imagenes-pequeñas"> <img src="/img/control.png" alt=""></div>
                 </div>             
                 <div class="divFlechas"><button class="flechas"><i class="fa-solid fa-caret-right"></i></button></div>
 
@@ -117,6 +120,7 @@
 
 
         </section>
+    
 
         <!-- OPCIONES DE PRODUCTO -->
 
@@ -163,11 +167,11 @@
         <section id="pruductosLinea">
 
             <h2>Nuestros productos</h2>
-
+            <div style="display: flex; width: 80%; margin: auto;">
             <div class="productoDesc">
                 <div class="imgNuProductos">
                     <a  href="/detalle-producto">
-                        <img src="/img/Tamaños img del home/Img NuestrosProductos.png" alt=""  href="/">
+                        <img src="/img/control.png" alt=""  href="/">
                     </a>
                 </div>
                 <div class="descripcion">
@@ -193,9 +197,70 @@
                     </div>
                 </div>
             </div>
+            <div class="productoDesc producto2"  >
+                <div class="imgNuProductos">
+                    <a  href="/detalle-producto">
+                        <img src="/img/control.png" alt=""  href="/">
+                    </a>
+                </div>
+                <div class="descripcion">
+                    <div class="estrellas">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Producto</h4>
+                    <p>$50.000</p>
+                    <div class="iconosAbajo">
+                        <a href="#">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="productoDesc producto3">
+                <div class="imgNuProductos">
+                    <a  href="/detalle-producto">
+                        <img src="/img/control.png" alt=""  href="/">
+                    </a>
+                </div>
+                <div class="descripcion">
+                    <div class="estrellas">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Producto</h4>
+                    <p>$50.000</p>
+                    <div class="iconosAbajo">
+                        <a href="#">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
         </section>
     </main>
     <footer>
+    <div id="footer">
+        <div id="divFooter" >
         <section>
             <h2>Contactenos</h2>
             <p><i class="fa-solid fa-envelope"></i> playerisland@gmail.com</p>
@@ -207,8 +272,9 @@
             <button class="red"><a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a></button>
             <button class="red"><a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a></button></div>
         </section>
-        <section>
-            <h3 style="margin-bottom: 0px">Productos</h3>
+        </div>
+        <section class="divFooter">
+            <h3 >Productos</h3>
             <ul>
                 <li><a> lorem ipsum</a></li>
                 <li><a> lorem ipsum</a></li>
@@ -216,7 +282,7 @@
                 <li><a> lorem ipsum</a></li>
             </ul>
         </section>
-        <section>
+        <section class="divFooter">
             <form action="/" method="post">
                 <h3>Escribenos</h3>
                 <input id="formEmail" type="email" name="email" placeholder="ejemplo@correo.com">
@@ -227,7 +293,7 @@
                 </div>
             </form>
         </section>
-        
+    </div>    
 
     </footer>
 </body>
