@@ -18,6 +18,7 @@ main{
 #imgPrincipal img{
     width: 100%;
     display: block;
+    max-height: 562px;
 }
 
 /* seccion logos de marca */
@@ -26,9 +27,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: space-between;
     width: 80%;
-    justify-content: center;
 }
 
 .porLogo{
@@ -37,23 +36,36 @@ main{
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding: 12px;
     background-color: rgba(200, 200, 200, 0.5);
-    margin: 12px 0px; 
-    padding: 25px 10px;
+    margin: 12px 0px;
     text-decoration: none;
     color: black;
 }
 
 .iconMarca{
-    width: 100%;
-    font-size: 75px;
+    width: 50%;
+    font-size: 67px;
 }
+.porLogo h3{
+    margin: 0px;
+    width: 50%;
+}
+
+.porLogo p{
+    width: 60%;
+    margin: 6px 0px;
+    font-size: 12px;
+}
+
+
 /* Nuestros productos */
 
 #pruductosLinea{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
     background-color: white;
     margin-top: 72px;
     margin-bottom: 100px;
@@ -66,14 +78,51 @@ main{
     text-align: center;
 }
 
-.productoDesc{
+.productoEnFila{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 60%;
+}
+
+.productoDescPrimera{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    width: 60%;
+    width: 100%;
     text-decoration: none;
     color: black;
 }
+
+.productoDescSegunda{
+    display: none;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.productoDescTercera{
+    display: none;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.productoDescCuarta{
+    display: none;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+
+
 /* imgNuProductos - Img */
 .imgNuProductos{
     width: 100%;
@@ -120,59 +169,110 @@ main{
 
 /* consolaPorSeccion */
 
-#consolaPorSeccion {
-    margin: auto;
+.consolaPorSeccion{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
+    background-color: rgb(200, 200, 200);
+    margin-top: 220px;
+    margin-bottom: 120px;
+    padding-top: 100px;
+}
+ 
+.caja-items-seccion{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     position: relative;
-    padding-top: 200px;
 }
 
 /* img consolaPorSeccion*/
-.imgConsolaPorSeccion{
+
+.item-img-seccion{
     position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    top: 0px;
+    top: -300px;
+
 }
 
-#consolaPorSeccion img{
-    width: 100%;
+.item-img-seccion img{
     display: block;
+    height: 100%;
 }
 
 /* Texto consolaPorSeccion */
 
-.textoPorSeccion{
+.item-text-seccion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+  /* caja reversa - consola por seccion */
+
+  .caja-items-reverse{
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    background-color: rgb(200, 200, 200); ;
-    padding-top: 115px;
-    text-align: center;
-    margin-bottom: 100px;
+    position: relative;
 }
 
-.textoPorSeccion p{
-    margin: 0px;
-    width: 98%;
+
+.item-img-reverse{
+    position: absolute;
+    top: -300px;
 }
 
-.botonVermas{
-    width: 100%;
+.item-img-reverse img{
+    display: block;
+    height: 100%;
 }
+
+
+/* MARCOS */
+/* .consolaPorSeccion {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  
+    padding-top: 200px;
+    justify-content: center;
+    position: relative;
+}
+
+.box-item {
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+
+}
+
+.item-img {
+   position: absolute;
+   top: 0;
+}
+
+.item-text {
+    width: 100%;
+    background-color: blue;
+} */
+
+
 
 .botonVermas button{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: lighter;
-    height: 60px;
-    width: 255px;
+    height: 41px;
+    width: 170px;
     margin: 30px 0;
-    border-radius: 20px;
+    border-radius: 12px;
     border: 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -181,27 +281,209 @@ main{
 
 #imgFinal{
     width: 100%;
-    margin-top: 25px;
-    margin-bottom: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     position: relative;
+    margin-bottom: 140px; 
+    margin-top: 20px;
 }
 
-#imgFinal img{
-    cursor:pointer;
+.item-img-final{
     width: 100%;
     display: block;
 }
 
-#imgFinal div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    position: absolute;
+.item-img-final img{
     width: 100%;
-    top: 50px;
+    height: 100%;
 }
 
-#imgFinal div p{
-    width: 90%;
+.item-text-final{
+    position: absolute;
+    width: 80%;
+    top: 30px;
+    
 }
+@media (min-width:768px){
+    #imgPrincipal img{
+        display: block;
+        max-height: 320px;
+    }
+    /* seccion logos de marca */
+
+    #seccionLogosMarca{
+        justify-content: space-between;
+        width: 75%;
+    }
+
+    .porLogo{
+        width: 25%;
+    }
+
+        /* Nuestros productos */
+        .productoEnFila{
+            width: 75%;
+        }
+    
+        .productoDescPrimera{
+            width: 32%;
+        }
+        .productoDescSegunda{
+            display: flex;
+            width: 32%;
+        }
+        .productoDescTercera{
+            display: flex;
+            width: 32%;
+        }
+
+        /* consolaPorSeccion */
+        
+        /* IMG FINAL */
+        .item-text-final{
+            position: absolute;
+            width: 70%;
+            top: 30px;
+        }
+        .item-img-final{
+            height: 400px;
+        }
+}
+
+@media (min-width:1279px){
+
+    /* ImgPrincipal */
+
+    #imgPrincipal img{
+        display: block;
+        max-height: 400px;
+    }
+
+    /* seccion logos de marca */
+
+    #seccionLogosMarca{
+        justify-content: space-between;
+        width: 70%;
+    }
+
+    .porLogo{
+        width: 30%;
+    }
+
+    /* Nuestros productos */
+    .productoEnFila{
+        width: 70%;
+    }
+
+    .productoDescPrimera{
+        width: 24%;
+    }
+    .productoDescSegunda{
+        display: flex;
+        width: 24%;
+    }
+    .productoDescTercera{
+        display: flex;
+        width: 24%;
+    }
+    .productoDescCuarta{
+        display: flex;
+        width: 24%;
+    }
+
+    /* consolaPorSeccion */
+    
+    .consolaPorSeccion{
+        padding: 0;
+    }
+     
+    .caja-items-seccion{
+        width: 60%;
+        justify-content: flex-end;
+    }
+    
+    
+    .item-img-seccion{
+        position: absolute;
+        top: auto;
+        bottom: 0px;
+        left: 0px;
+        height: 450px;
+        width: 50%;
+    }
+
+    .item-img-seccion div{
+        position: absolute;
+        right: 40px;
+        height: 100%;
+    }
+    
+    .item-img-seccion img{
+        display: block;
+    }
+    
+    .item-text-seccion{
+        width: 50%;
+        align-items: flex-start;
+        text-align: start;
+    }
+    
+    
+    /* caja reversa - consola por seccion */
+
+    .caja-items-reverse{
+        flex-direction: column-reverse;
+        width: 60%;
+    }
+
+
+    .item-img-reverse{
+        position: absolute;
+        top: auto;
+        bottom: 0px;
+        right: 0px;
+        height: 450px;
+        width: 50%;
+    }
+    
+    .item-img-reverse div{
+        position: absolute;
+        left: 40px;
+        height: 100%;
+     }
+
+
+    /* MARCOS */
+    /* .consolaPorSeccion {
+        position: initial;
+    }
+
+    .box-item {
+        width: 70%;
+        background-color: aqua;
+        position: relative;
+    }
+    .item-img {
+        width: 50%;      bottom: 0;
+      top: auto;
+    }
+    .item-text {
+        width: 50%;
+      } */
+
+
+      /* IMG FINAL */
+
+
+      .item-text-final{
+        position: absolute;
+        width: 70%;
+        top: 30px;
+    }
+    .item-img-final{
+        height: 300px;
+    }
+}
+
