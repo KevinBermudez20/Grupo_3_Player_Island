@@ -17,10 +17,8 @@ body{
 }
 header{
       width: 100%;
-      background-color: var(--mo1);
       height: 48px;
       display: flex;
-
 }
 #header{
     display: flex;
