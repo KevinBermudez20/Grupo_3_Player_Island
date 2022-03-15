@@ -21,22 +21,44 @@
 
 <body>
     <header>
-      <nav>
-        <div id="logo">
-            <img src="/img/logoProvisional.png" alt="">
+        <div id="header">
+            <nav>
+                <a href="/">
+                    <div id="logo">
+                        <img src="/img/logoProvisional.png" alt="">
+                    </div>
+                </a>
+                <div id="barraBusqueda">
+                    <i class="fa-solid fa-magnifying-glass navButton"></i>
+                    <input type="search" placeholder="Busca aquí...">
+
+                </div>
+                <div id="navegacion">
+                    <div id="barraBusqueda1">
+                        <i class="fa-solid fa-magnifying-glass navButton"></i>
+                        <input type="search" placeholder="Busca aquí...">
+
+                    </div>
+                    <div id="listaNavegacion">
+                        <ul>
+                            <li><a href="/">Inicio </a></li>
+                            <li><a href="/ListaProductos">Productos </a></li>
+                            <li><a href="/">Servicios </a></li>
+                            <li><a href="">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navButton barras">
+                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <div class="navButton login">
+                    <a href="/login"><i class="fa-solid fa-user"></i></a>
+                </div>
+                <div class="navButton carrito">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </nav>
         </div>
-        <div id="barraBusqueda">
-            <i class="fa-solid fa-magnifying-glass navButton"></i>  
-            <input type="search" placeholder="Busca aquí...">
-          
-        </div>
-        <div class="navButton barras">
-            <a href="/login"><i class="fa-solid fa-bars"></i></a>
-        </div>
-        <div class="navButton carrito">
-            <a href="/carrito-de-compras"><i class="fa-solid fa-cart-shopping"></i></a>
-        </div>
-      </nav>  
     </header>
     <main>
         <!-- /* ImgPrincipal */ -->
@@ -114,7 +136,7 @@
                 </div>
                 <div class="productoDescSegunda">
                     <div class="imgNuProductos">
-                        <a href="/">
+                        <a href="/detalle-producto">
                             <img class="js-modal-product-cover product-cover-modal" width="800" src="https://demo.codezeel.com/prestashop/PRS15/PRS150365/img/p/7/6/76-large_default.jpg" alt="" title="" itemprop="image">
                         </a>
                     </div>
@@ -143,7 +165,7 @@
                 </div>
                 <div class="productoDescTercera">
                     <div class="imgNuProductos">
-                        <a href="/">
+                        <a href="/detalle-producto">
                             <img class="js-modal-product-cover product-cover-modal" width="800" src="https://demo.codezeel.com/prestashop/PRS15/PRS150365/img/p/7/5/75-large_default.jpg" alt="" title="" itemprop="image">
                         </a>
                     </div>
@@ -173,8 +195,7 @@
                 <div class="productoDescCuarta">
                     <div class="imgNuProductos">
                         <a href="/detalle-producto">
-                            <img src="/img/Tamaños img del home - cel/Img NuestrosProductos.png" alt=""
-                                href="/">
+                            <img class="js-modal-product-cover product-cover-modal" width="800" src="https://demo.codezeel.com/prestashop/PRS15/PRS150365/img/p/7/6/76-large_default.jpg" alt="" title="" itemprop="image">
                         </a>
                     </div>
                     <div class="descripcion">
@@ -222,9 +243,9 @@
                         industria desde el año 1500, cuando un impresor
                         desconocido tomó una galera de tipos y la codificó para
                         hacer un libro de muestras tipográficas.</p>
-                    <div class="botonVermas">
+                    <a href="/ListaProductos" class="botonVermas">
                         <button type="submit">Ver más</button>
-                    </div>
+                    </a>
 
                 </div>
             </div>
@@ -247,9 +268,9 @@
                         industria desde el año 1500, cuando un impresor
                         desconocido tomó una galera de tipos y la codificó para
                         hacer un libro de muestras tipográficas.</p>
-                    <div class="botonVermas">
+                    <a href="/ListaProductos" class="botonVermas">
                         <button type="submit">Ver más</button>
-                    </div>
+                    </a>
 
                 </div>
             </div>
@@ -272,9 +293,9 @@
                         industria desde el año 1500, cuando un impresor
                         desconocido tomó una galera de tipos y la codificó para
                         hacer un libro de muestras tipográficas.</p>
-                    <div class="botonVermas">
+                    <a href="/ListaProductos" class="botonVermas">
                         <button type="submit">Ver más</button>
-                    </div>
+                    </a>
 
                 </div>
             </div>
@@ -293,40 +314,47 @@
         </section>
     </main>
     <footer>
-        <section>
-            <h2>Contactenos</h2>
-            <p><i class="fa-solid fa-envelope"></i> playerisland@gmail.com</p>
-            <p><i class="fa-solid fa-phone"></i> 000-000-0000</p>
-        </section>
-        <section>
-            <div> <button class="red"><a href="https://www.instagram.com "><i
-                            class="fa-brands fa-instagram "></i></a></button>
-                <button class="red"><a href="https://www.facebook.com"><i
-                            class="fa-brands fa-facebook-f"></i></a></button>
-                <button class="red"><a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a></button>
-                <button class="red"><a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a></button>
+        <div id="footer">
+            <div id="divFooter">
+                <section>
+                    <h2>Contactenos</h2>
+                    <p><i class="fa-solid fa-envelope"></i> playerisland@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 000-000-0000</p>
+                </section>
+                <section>
+                    <div> <button class="red"><a href="https://www.instagram.com "><i
+                                    class="fa-brands fa-instagram "></i></a></button>
+                        <button class="red"><a href="https://www.facebook.com"><i
+                                    class="fa-brands fa-facebook-f"></i></a></button>
+                        <button class="red"><a href="https://www.tiktok.com"><i
+                                    class="fa-brands fa-tiktok"></i></a></button>
+                        <button class="red"><a href="https://www.youtube.com"><i
+                                    class="fa-brands fa-youtube"></i></a></button>
+                    </div>
+                </section>
             </div>
-        </section>
-        <section>
-            <h3 style="margin-bottom: 0px">Productos</h3>
-            <ul>
-                <li><a> lorem ipsum</a></li>
-                <li><a> lorem ipsum</a></li>
-                <li><a> lorem ipsum</a></li>
-                <li><a> lorem ipsum</a></li>
-            </ul>
-        </section>
-        <section>
-            <form action="/" method="post">
-                <h3>Escribenos</h3>
-                <input id="formEmail" type="email" name="email" placeholder="ejemplo@correo.com">
-                <textarea name="comentarios" rows="10" cols="40" placeholder="Escribe aquí tus comentarios"></textarea>
-                <div id="botones">
-                    <button id="enviarForm" type="submit" value="ENVIAR">ENVIAR</button>
-                    <button id="resetForm" type="reset">BORRAR</button>
-                </div>
-            </form>
-        </section>
+            <section class="divFooter">
+                <h3>Productos</h3>
+                <ul>
+                    <li><a> lorem ipsum</a></li>
+                    <li><a> lorem ipsum</a></li>
+                    <li><a> lorem ipsum</a></li>
+                    <li><a> lorem ipsum</a></li>
+                </ul>
+            </section>
+            <section class="divFooter">
+                <form action="/" method="post">
+                    <h3>Escribenos</h3>
+                    <input id="formEmail" type="email" name="email" placeholder="ejemplo@correo.com">
+                    <textarea name="comentarios" rows="10" cols="40"
+                        placeholder="Escribe aquí tus comentarios"></textarea>
+                    <div id="botones">
+                        <button id="enviarForm" type="submit" value="ENVIAR">ENVIAR</button>
+                        <button id="resetForm" type="reset">BORRAR</button>
+                    </div>
+                </form>
+            </section>
+        </div>
 
     </footer>
 </body>

@@ -36,5 +36,5 @@ El Market Place hace referencia al espacio virtual en el que los clientes tienen
 
 **7. Extras**
 
-*Colores:* https://coolors.co/ff6d00-ff7900-ff8500-ff9100-ff9e00-240046-3c096c-5a189a-7b2cbf-9d4edd
+*Colores:* https://coolors.co/150722-230b39-352347-fca311-d6d6d6-ffffff
 
