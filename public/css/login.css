@@ -16,11 +16,14 @@ body{
 main{
     display: flex;
     flex-direction: column;
+    position: absolute;
+    width: 100%;
 }
 
 #logo {
   width: 48px;
   height: 4px;
+  padding-top: 1%;
 }
 
 .contenedor {
@@ -29,26 +32,33 @@ main{
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 100px;
-    height: 520px;
+    height: 625px;
     width: 38.611%;
     background-color: #FFF;
-  }
-  .centrado {
-    position: absolute;
-    top: 30%;
-    width: 100%;
-    text-align: center;
-  }
-  .contraseña {
-    position: absolute;
-    top: 60%;
-    width: 100%;
-    text-align: center;
-  }
-  header{
-    position: absolute;
-    width: 100%;
     display: flex;
+    align-self: center;
+}
+.centrado h2{
+    color: black;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 100px;
+    max-width:80%;
+    width: 50%;
+    margin: auto;
+    margin-right: 40%;
+    display: flex;
+}
+
+.contraseña {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+}
+header {
+  position: absolute;
+  width: 100%;
+  display: flex;
 }
 
 #logo{
@@ -122,4 +132,14 @@ div.a {
   top: 89%;
   width: 15%;
   font-size: 13px;
+}
+.a{
+  top: 0; left: 0; bottom: 0; right: 0;
+    width: 100px;
+    max-width:80%;
+    width: 50%;
+    margin: auto;
+    margin-right: 40%;
+    display: flex;
+    padding-bottom: 10px;
 }

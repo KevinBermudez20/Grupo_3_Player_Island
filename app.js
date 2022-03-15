@@ -29,3 +29,7 @@ app.get('/registro', (req,res)=>{
 app.get('/ListaProductos', (req,res)=>{
     res.sendFile(path.join(__dirname,'views/listaProductos.html'));
 });
+
+app.get('/carrito-de-compras', (req,res)=>{
+    res.sendFile(path.join(__dirname,'views/carrito-de-compras.html'));
+});
