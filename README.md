@@ -38,3 +38,4 @@ El Market Place hace referencia al espacio virtual en el que los clientes tienen
 
 *Colores:* https://coolors.co/150722-230b39-352347-fca311-d6d6d6-ffffff
 
+*Tablero:* https://trello.com/invite/b/ihb592uo/831e44afeeba7291beed8699cba1cfff/sprint-2
