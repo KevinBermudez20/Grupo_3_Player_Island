@@ -27,7 +27,7 @@ app.get('/registro', (req,res)=>{
 });
 
 app.get('/ListaProductos', (req,res)=>{
-    res.sendFile(path.join(__dirname,'views/listaProductos.html'));
+    res.sendFile(path.join(__dirname,'views/ListaProductos.html'));
 });
 
 app.get('/carrito-de-compras', (req,res)=>{
