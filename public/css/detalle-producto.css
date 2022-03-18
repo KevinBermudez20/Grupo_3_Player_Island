@@ -299,15 +299,11 @@ display: none;
         flex-wrap: wrap;
     }
     #imagenes-producto{
-        width: 45%;
-        
-        
-        
+        width: 45%; 
     }
     #descripcion-producto{
         width: 40%;
-        margin-top: 70px;
-        
+        margin-top: 70px; 
     }
     #compra-producto{
         width: 40%;
