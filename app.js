@@ -27,7 +27,7 @@ app.get('/registro', (req,res)=>{
 });
 
 app.get('/ListaProductos', (req,res)=>{
-    res.sendFile(path.join(__dirname,'views/ListaProductos2.html'));
+    res.sendFile(path.join(__dirname,'views/ListaProductos.html'));
 });
 
 app.get('/carrito-de-compras', (req,res)=>{
@@ -35,7 +35,4 @@ app.get('/carrito-de-compras', (req,res)=>{
 });
 app.post('/carrito-de-compras', (req,res)=>{
     res.sendFile(path.join(__dirname,'views/carrito-de-compras.html'));
-});
-app.get('/ListaProductos3', (req,res)=>{
-    res.sendFile(path.join(__dirname,'views/ListaProductos3.html'));
 });
