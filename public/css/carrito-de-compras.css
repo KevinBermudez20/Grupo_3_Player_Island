@@ -22,7 +22,7 @@ main{
     width: 750px;
     height: 600px;
     margin: 80px auto;
-    background: gray;
+    background: #352347;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
