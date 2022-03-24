@@ -33,3 +33,7 @@ app.get('/ListaProductos', (req,res)=>{
 app.get('/carrito-de-compras', (req,res)=>{
     res.sendFile(path.join(__dirname,'views/carrito-de-compras.html'));
 });
+
+app.get('/registro2', (req,res)=>{
+    res.sendFile(path.join(__dirname,'views/registro2.html'));
+});
